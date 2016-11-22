@@ -1,0 +1,91 @@
+section.intro-account {
+	padding: 0 15%;
+	text-align: center;
+	margin: 2em 0;
+}
+section.form-home {
+    overflow: auto;
+    text-align: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+div.account-container {
+    margin: 0 auto;
+    display: block;
+}
+form fieldset.account {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+}
+fieldset.account label {
+  margin: 1em 0 0.5em 33%;
+  text-align: left;
+}
+fieldset.account label.hours {
+  margin: 2em 0 0 28%;
+  text-align: left;
+  width: 23%;
+  min-width: 590px;
+}
+fieldset.account input.radio {
+  float: left;
+  width: 4%;
+  margin-right: 5px;
+  margin-left: 8%;
+}
+fieldset.account input {
+  width: 32%;
+}
+fieldset.account a.btn-save {
+	margin: 2em auto;
+    display: block;
+    width: 32%;
+}
+/*
+ * Media Queries
+ */
+@media screen and (max-width: 1200px) {
+	fieldset.account label.hours {
+    	margin: 2em 0 0 28%;
+    	width: 25%;
+	}
+}
+@media screen and (max-width: 700px) {
+	fieldset.account input {
+    	width: 50%;
+    }
+    fieldset.account label {
+    	margin: 1em 0 0.5em 24%;
+    }
+    fieldset.account label.hours {
+    	margin: 2em 0 0 4%;
+    	width: 100%;
+    }
+    fieldset.account input.radio {
+    	margin: 0 2% 0 20%;
+    }
+    fieldset.account input.button {
+    	width: 52%;
+    }
+}
+@media screen and (max-width: 450px) {
+	fieldset.account input {
+    	width: 50%;
+    	margin: 0 13em 0 0em;
+    }
+    fieldset.account label {
+    	margin: 1em 0 0.5em 9%;
+    }
+    fieldset.account input.radio {
+    	margin: 0 2% 0 4%;
+	}
+	fieldset.account a.btn-save {
+    	width: 52%;
+    	margin: 2em 1em 1em 3em;
+    }
+}
+
+
+
+

@@ -1,0 +1,43 @@
+nav.admin li a {
+  color: #222;
+}
+
+body.admin table {
+  padding: 0 !important;
+  margin-bottom: 20px;
+  border: 1px solid black;
+}
+
+body.admin td {
+  padding: 0 !important;
+  border: 1px solid black;
+}
+
+body.admin th {
+  padding: 0 !important;
+  border: 1px solid black;
+}
+
+body.admin .controls {
+  float: right;
+  margin: 15px 5px 0px;
+}
+
+body.admin table.small {
+  width: 700px;
+}
+
+body.admin section.user {
+  max-width: 700px;
+}
+
+body.admin span.controls {
+  display: inline-block;
+  line-height: 2em !important;
+}
+
+body.admin h1, h2, h3, h4 {
+  display: inline-block;
+  line-height: 2em !important;
+}
+
