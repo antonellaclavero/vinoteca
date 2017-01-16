@@ -92,19 +92,19 @@ nav li a:hover {
 }
 header.intro-holder {
 	background: transparent url("../images/background.jpg") center top no-repeat;
-    background-size: cover;
-    width: 100vw;
-    height: 100vh;
-    display: table;
-    overflow: hidden;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: table;
+  overflow: hidden;
 }
 .intro {
 	width: 100%;
-    height: 200px;
-    top: 28%;
-    margin-top: 20px;
-    text-align: center;
-    position: absolute;
+  height: 200px;
+  top: 28%;
+  margin-top: 20px;
+  text-align: center;
+  position: absolute;
 }
 .intro p.uppercase {
 	text-transform: uppercase;
@@ -134,8 +134,8 @@ header.intro-holder {
 /*section about*/
 
 section.about {
-    margin-top: 0.5em;
-    padding: 5em 11%;
+  margin-top: 0.5em;
+  padding: 5em 11%;
 }
 section.about img {
 	float: left;
@@ -168,20 +168,21 @@ section.about article p.quote {
 
 section.steps {
 	clear: both;
-    margin: 0 auto;
-    padding: 4em 10%;
+  margin: 0 auto;
+  padding: 4em 10%;
 }
 section.steps article {
 	display: table-cell;
-    width: 33.3%;
-    text-align: left;
+  width: 33.3%;
+  text-align: left;
+  font-family: 'PT Sans', sans-serif;
 }
 section.steps article.step h1 {
 	color: #fff;
-    line-height: 71px;
-    margin: 0 0 2em 0;
-    background: transparent url("../images/circle.svg") center top no-repeat;
-    padding: 0 2em;
+  line-height: 71px;
+  margin: 0 0 2em 0;
+  background: transparent url("../images/circle.svg") center top no-repeat;
+  padding: 0 2em;
 	font-family: 'Montserrat', sans-serif;
 	float: left;
 }
@@ -206,9 +207,9 @@ section.steps article p {
 /*section products*/
 
 section.products {
-    margin: 0 auto;
-    background-color: #F6F5F1;
-    padding: 4em 6% 4em;
+  margin: 0 auto;
+  background-color: #F6F5F1;
+  padding: 4em 6% 4em;
 }
 section.products h1.intro-products {
 	margin-top: 0.5em;
@@ -236,7 +237,7 @@ ul.wines {
 }
 .container {
 	padding: 0 15%;
-    background-color: #F6F5F1;
+  background-color: #F6F5F1;
 }
 li.card {
 	background: #fff;
@@ -294,6 +295,18 @@ li.card p {
 li.card img {
 	max-width: 100%;
   display: inline-block;
+}
+
+/*CONTACT*/
+
+div#contact {
+  font-family: 'PT Sans', sans-serif;
+  padding: 0;
+  text-align: center;
+}
+div#contact p {
+  font-size: 18pt;
+  line-height: 21pt;
 }
 
 /*form home*/
@@ -476,29 +489,29 @@ header.intro-holder p {
 	}
 	section.steps article {
 		padding: 2em 15%;
-    	display: block;
-    	width: auto;
+    display: block;
+    width: auto;
 	}
 	section.wines {
 		margin: 2em 0;
 	}
-    form fieldset input {
-        width: 49%;
-    }
-    form fieldset a.button {
-        width: 46%;
-    }
+  form fieldset input {
+    width: 49%;
+  }
+  form fieldset a.button {
+    width: 46%;
+  }
 	section.payment-method div {
 		padding: 11px 0.2em;
 	}
 	section.payment-method div.oca-payment {
-    	padding: 21px 1.5%;
+    padding: 21px 1.5%;
 	}
 	section.payment-method div.cash-payment {
-    	padding: 6px 21%;
-    }
+    padding: 6px 21%;
+  }
 	.footer-one h1 {
-    	margin: 0 10px 40px 10px;
+    margin: 0 10px 40px 10px;
 	}
 	
 }
