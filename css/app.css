@@ -297,7 +297,7 @@ li.card img {
   display: inline-block;
 }
 
-/*CONTACT*/
+/* CONTACT */
 
 div#contact {
   font-family: 'PT Sans', sans-serif;
@@ -309,111 +309,8 @@ div#contact p {
   line-height: 21pt;
 }
 
-/*form home*/
 
-section.form-home {
-	overflow: auto;
-	text-align: center;
-	padding-bottom: 0;
-	margin-bottom: 0;
-}
-div.form-container {
-	background-color: #fff;
-	margin: 5% auto;
-	display: block;
-  width: 62%;
-  border-radius: 5px;
-  border: 1px solid #f1f4f5;
-  border-color: #f7f9fb #f1f4f5 #e6e9ea #f1f4f5;
-  box-shadow: 0px 0px 37px -4px rgba(255,255,255,1);
-  -webkit-box-shadow: 0px 0px 37px -4px rgba(255,255,255,1);
-	-moz-box-shadow: 0px 0px 37px -4px rgba(255,255,255,1);
-}
-div.form-container h1 {
-	margin: 1.5em 0 0 0;
-}
-div.form-container p {
-	font-weight: lighter;
-	margin: 1em 0 1em 0;
-}
-div.form-container a {
-	color: #DFC05A;
-}
-form fieldset {
-  margin: 0 auto;
-  display: block;
-}
-form fieldset label {
-	display: block;
-	margin: 0.5em 0 0.5em 24%;
-	text-align: left;
-	font-size: 10pt;
-	color: #222;
-	width: 47%;
-}
-form fieldset input {
-	border-radius: 2px;
-  border: solid 1px #DCDCDC;
-	padding: 15px 1%;
-  width: 50%;
-  margin: 0 0 3px 0;
-  text-align: left;
-  font-family: 'PT Sans', sans-serif;
-  font-weight: lighter;
-  font-size: 10pt;
-}
-input:focus {
-	outline-style:none;
-	box-shadow:none;
-	border-color: #DFC05A;
-}	
-form fieldset a.button {
-	background-color: #DFC05A;
-	border: solid 2px #DFC05A;
-	color: #fff;
-	text-align: center;
-	text-transform: uppercase;
-	font-weight: bolder;
-	font-size: 12pt;
-	letter-spacing: 0.12em;
-	border-radius: 2px;
-	margin: 2em 0 8% 0;
-	font-family: 'Montserrat', sans-serif;
-  width: 48%;
-}
-form span.error-message {
-  color: red;
-  font-size: 10pt;
-  display: inline;
-  float: right;
-}
-section.payment-method {
-	width: 100%;
-	margin: 0.5em 0 0 0;
-}
-section.payment-method div {
-	display: inline-block;
-	border: solid 1px #DCDCDC;
-	border-radius: 2px;
-	padding: 15px 2%;
-}
-section.payment-method img {
-  margin: 0 auto;
-  display: block;
-  width: 110px;
-}
-section.payment-method div.oca-payment {
-	padding: 25px 1.5em;
-}
-section.payment-method div.cash-payment {
-	margin: 0 auto;
-	display: table;
-	padding: 7px 22.5%;
-}
-div.cash-payment p {
-	color: #DFC05A;
-}
-/*footer*/
+/*FOOTER*/
 
 footer .footer-two {
   background-color: #222;
@@ -463,6 +360,7 @@ span {
 .contact a.icon-instagram:hover {
 	color: #ed2665;
 }
+
 /*
  * Thank You
  */
